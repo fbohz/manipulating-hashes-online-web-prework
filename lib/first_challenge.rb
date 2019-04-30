@@ -20,7 +20,7 @@ contacts.each do |k, v|
  v.each do |a, d| 
   if a == :favorite_icecream_flavors
     d.each do |flavor|
-      puts "#{flavor}" + "hi"
+      #puts "#{flavor}" + "hi"
       d.delete_if {|x| x == "strawberry"}    
 
       end
